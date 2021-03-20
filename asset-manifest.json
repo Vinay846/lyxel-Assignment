@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/lyxel-Assignment/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/lyxel-Assignment/static/js/main.90919434.chunk.js",
+    "main.js.map": "/lyxel-Assignment/static/js/main.90919434.chunk.js.map",
+    "runtime-main.js": "/lyxel-Assignment/static/js/runtime-main.f9809ea5.js",
+    "runtime-main.js.map": "/lyxel-Assignment/static/js/runtime-main.f9809ea5.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/lyxel-Assignment/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba092d1a.chunk.js": "/lyxel-Assignment/static/js/2.ba092d1a.chunk.js",
+    "static/js/2.ba092d1a.chunk.js.map": "/lyxel-Assignment/static/js/2.ba092d1a.chunk.js.map",
+    "static/js/3.011f9b64.chunk.js": "/lyxel-Assignment/static/js/3.011f9b64.chunk.js",
+    "static/js/3.011f9b64.chunk.js.map": "/lyxel-Assignment/static/js/3.011f9b64.chunk.js.map",
+    "index.html": "/lyxel-Assignment/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/lyxel-Assignment/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.6dea0f05.chunk.css.map": "/lyxel-Assignment/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.ba092d1a.chunk.js.LICENSE.txt": "/lyxel-Assignment/static/js/2.ba092d1a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f9809ea5.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.ba092d1a.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.90919434.chunk.js"
+  ]
+}
