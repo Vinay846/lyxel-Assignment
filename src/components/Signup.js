@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Spinner } from 'react-bootstrap';
 
-function Signup(props) {
+function Signup({handleSignup, load}) {
 	const [ fullName, setFullName ] = useState('');
 	const [ email, setEmail ] = useState('');
 	const [ password, setPassword ] = useState('');
@@ -30,7 +30,7 @@ function Signup(props) {
 	};
 
     const handleSignupuser=()=> {
-        props.handleSignup(email, password, fullName, gender, phone);
+        handleSignup(email, password, fullName, gender, phone);
     }
 
 
@@ -102,8 +102,14 @@ function Signup(props) {
 				<Form.Text className={`text-${color}`}>{msg}</Form.Text>
 			</Form.Group>
 
-			<Button onClick={handleSignupuser} variant="primary" >
-				Signup
+			<Button disabled={load} onClick={handleSignupuser} variant="primary" >
+			{load && <Spinner
+                as="span"
+                animation="grow"
+                size="sm"
+                role="status"
+				aria-hidden="true"
+			/>}Signup
 			</Button>
 		</Form>
 	);

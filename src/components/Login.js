@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { Button, Form } from 'react-bootstrap';
+import { Button, Form, Spinner } from 'react-bootstrap';
 
-function Login(props) {
-	const [ email, setEmail ] = useState('');
-	const [ password, setPassword ] = useState('');
+function Login({handlelogin, load}) {
+	const [email, setEmail] = useState('');
+	const [password, setPassword] = useState('');
 
-    const handleLoginuser=()=> {
-        props.handlelogin(email, password);
-    }
+	const handleLoginuser = () => {
+		handlelogin(email, password);
+	}
 
 	return (
 		<Form className="my-3">
@@ -30,8 +30,14 @@ function Login(props) {
 					placeholder="Password"
 				/>
 			</Form.Group>
-			<Button onClick={handleLoginuser} variant="primary">
-				Login
+			<Button disabled={load} onClick={handleLoginuser} variant="primary">
+				{load && <Spinner
+					as="span"
+					animation="grow"
+					size="sm"
+					role="status"
+					aria-hidden="true"
+				/>}Login
 			</Button>
 		</Form>
 	);
