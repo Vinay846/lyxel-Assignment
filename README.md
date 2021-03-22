@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Live Demo](https://vinay846.github.io/lyxel-Assignment/).
+Project [Live Demo](https://vinay846.github.io/lyxel-Assignment/).
 
 ## Available Scripts
 
